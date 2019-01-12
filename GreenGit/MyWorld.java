@@ -7,5 +7,6 @@ public class MyWorld extends World
     {    
         super(600, 400, 1); 
         addObject(new Spieler(), 300, 200);
+        addObject(new GrosserBruder(), 20, 20);
     }
 }
